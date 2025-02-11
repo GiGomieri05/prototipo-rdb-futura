@@ -1,19 +1,24 @@
-.container {
-  min-height: 100vh;
-  background: #eee;
-  padding: 30px;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-.button-container {
-  min-height: 100px;
-  display: flex;
-  align-items: flex-end;
+li {
+  float: left;
 }
 
-.search-container {
-  margin-bottom: 30px;
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.search-container h1 {
-  margin-bottom: 30px;
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
 }
