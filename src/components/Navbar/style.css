@@ -1,0 +1,69 @@
+.NavBar {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #edecec;
+  border-bottom-style: solid;
+  border-width: 1px;
+  border-color: #ada2a4;
+}
+
+.NavBar .user-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: right;
+  height: 10%;
+}
+
+.NavBar .user-profile img {
+  height: 50px;
+  border-radius: 50%;
+}
+
+.NavBar .user-profile .div-img {
+  display: flex;
+  justify-content: center;
+}
+
+.NavBar .user-profile .info {
+  padding-right: 10px;
+}
+
+.NavBar .user-profile .info .email {
+  color: #ff1025;
+}
+
+.NavBar .logo-rdb {
+  max-width: 100%;
+  height: 50px;
+}
+
+.NavBar .nav-items {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.NavBar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.NavBar li {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.NavBar li a {
+  display: block;
+  text-decoration: none;
+}
